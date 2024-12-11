@@ -27,10 +27,10 @@ from matplotlib.colors import ListedColormap #Colormaps for graphs
 # ------------------------------------------
 
 # Load image and nerve skeleton (The code expects .tif files, which can be created after file conversion from NeuronJ)
-# The code expects Image files to be 'sample name'.tif, e.g. "9OD_m1.tif"
-# The codes expects masks files to be 'sample name'_skel.tif, e.g. "9OD_m1_skel.tif".
+# The code expects Image files to be 'sample name'.tif, e.g. "9OS_m1.tif"
+# The codes expects masks files to be 'sample name'_skel.tif, e.g. "9OS_m1_skel.tif".
 
-Sample_name="" #Insert sample name, e.g. "9OD_m1"
+Sample_name="" #Insert sample name, e.g. "9OS_m1"
 if Sample_name=="":
     print("You must edit the 'Sample_name' variable with a valid sample name")
  
